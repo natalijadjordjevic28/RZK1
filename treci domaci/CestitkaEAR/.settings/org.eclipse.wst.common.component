@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="CestitkaEAR">
+                
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+                
+        <dependent-module archiveName="CestitkaEJB.jar" deploy-path="/" handle="module:/resource/CestitkaEJB/CestitkaEJB">
+                        
+            <dependent-object/>
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="CestitkaJPA.jar" deploy-path="/lib" handle="module:/resource/CestitkaJPA/CestitkaJPA">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+        <dependent-module archiveName="CestitkaWEB.war" deploy-path="/" handle="module:/resource/CestitkaWEB/CestitkaWEB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+            
+    </wb-module>
+    
+</project-modules>
